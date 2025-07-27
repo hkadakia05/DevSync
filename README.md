@@ -128,9 +128,8 @@ Unlike single-purpose tools like **GitHub Copilot** or **SonarQube**, DevSync pr
 
 ---
 
-✅ Copy everything **above this line** into your `README.md`.
+✅ Contious Development.
 
 ---
 
-🔥 Do you want me to **add tech badges + architecture diagram image + screenshot placeholders** so it looks more polished before you push it to GitHub?
-Or should I **start coding your full Streamlit MVP template next**?
+🔥 Contributing Rn
