@@ -22,6 +22,8 @@ Developers waste countless hours switching between **code reviews**, **meetings*
 ---
 
 ## 🏗 **Architecture**
+![DevSync AI Architecture](assets/Flowchart.pdf)
+
 
 ### **Agent Workflow**
 

@@ -1,0 +1,20 @@
+# Core Agent Logic
+langchain
+flake8
+gitpython
+sqlalchemy
+python-dotenv
+pydantic
+
+# NVIDIA Integrations
+riva-api
+nemo_toolkit[all]
+transformers
+
+# Streamlit UI
+streamlit
+
+# Development and Testing
+pytest
+black
+requests
