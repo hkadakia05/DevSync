@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  devsync:
+    build: .
+    container_name: devsync_ai
+    ports:
+      - "8501:8501"
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/app
+
+  riva-speech:
+    image: nvcr.io/nvidia/riva/riva-speech:2.14.0
+    container_name: riva_asr
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "50051:50051"
+    command: ["riva_start.sh"]

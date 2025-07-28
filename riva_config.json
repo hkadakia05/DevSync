@@ -1,0 +1,31 @@
+/*
+This is an example configuration file for NVIDIA Riva ASR.
+DevSync does NOT use this file by default.
+Only include this if you want to customize Riva ASR behavior.
+
+Usage:
+- Place this file in the Riva container or reference via CLI during startup.
+- Edit values as needed.
+
+Fields:
+- language_code: Language for transcription (e.g., "en-US")
+- enable_automatic_punctuation: Adds punctuation automatically
+- max_alternatives: Number of alternative transcripts to return
+- audio_encoding: Audio format (e.g., LINEAR_PCM)
+- sample_rate_hz: Audio sample rate (Hz)
+*/
+
+{
+    "asr": {
+      "language_code": "en-US",
+      "enable_automatic_punctuation": true,
+      "max_alternatives": 1,
+      "audio_encoding": "LINEAR_PCM",
+      "sample_rate_hz": 16000
+    },
+    "service": {
+      "port": 50051,
+      "enable_logging": true
+    }
+  }
+  
